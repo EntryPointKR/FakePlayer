@@ -1,0 +1,7 @@
+main: kr.rvs.fakeplayer.FakePlayer
+name: FakePlayer
+version: 1.0
+author: EntryPoint
+depend: [ProtocolLib]
+commands:
+  동접조작:

@@ -1,0 +1,16 @@
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+compileJava.options.encoding = 'UTF-8'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile files('../../../../../MCServer/1.5.2/spigot.jar')
+    compile files('C:\\Users\\deide\\OneDrive\\문서\\MCServer\\1.5.2\\plugins\\ProtocolLib-2.7.3.jar')
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
